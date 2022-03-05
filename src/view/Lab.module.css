@@ -1,0 +1,59 @@
+.article{
+    padding: 6rem 1rem;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr)); */
+    gap: 2rem;
+}
+
+.content{
+    background-color: #1a1a1a;
+    padding: 1.6rem;
+    border-radius: 0.6rem;
+    box-sizing: 0 3px 4px rgba(0,0,0,0.2);
+    
+}
+.content h1{
+    font-size: 2.6rem;
+    margin: 1rem 0;
+    color: var(--color-light); 
+}
+
+.content p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--color-light);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.title ul li{
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.6rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+}
+
+.title ul li span{
+    color: var(--color-light);
+    font-size: 1.4rem;
+}
+
+.title ul li ion-icon{
+    font-size: 2rem;
+}

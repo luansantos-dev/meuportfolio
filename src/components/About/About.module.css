@@ -1,0 +1,30 @@
+.about{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    color: var(--color-light);
+}
+
+.title{
+    font-size: 8rem;
+} 
+.subtitle{
+    font-size: 2.6rem;
+    font-weight: 300;
+    max-width: 70rem;
+    color: #808080;
+    line-height: 1.6;
+}
+
+strong{
+    color: var(--color-black);
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.8rem;
+    margin-left: 1rem;
+    display: inline-block;
+    
+    background-color: var(--color-light);
+    background: -moz-linear-gradient(top,  #f05233 0%, #f9a942 100%); 
+    background: -webkit-linear-gradient(top,  #f05233 0%,#f9a942 100%);
+    background: linear-gradient(to bottom,  #f05233 0%,#f9a942 100%); 
+
+}
