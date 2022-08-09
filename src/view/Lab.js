@@ -19,11 +19,11 @@ const Lab = () => {
             <ul>
               <li>
                 <ion-icon name="logo-vue"></ion-icon>
-                <span>vuejs</span>
+                <span>Vuejs</span>
               </li>
               <li>
                 <ion-icon name="logo-sass"></ion-icon>
-                <span>vuejs</span>
+                <span>Sass</span>
               </li>
             </ul>
           </div>

@@ -4,7 +4,6 @@
 
 .container{
     display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr)); */
     gap: 2rem;
 }
 
@@ -40,9 +39,9 @@
 }
 
 .title ul li{
-    padding: 0.2rem 0.6rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 0.6rem;
-    background-color: red;
+    background-color: var(--color-black-dark);
     display: flex;
     align-items: center;
     gap: 0.6rem;
@@ -52,8 +51,9 @@
 .title ul li span{
     color: var(--color-light);
     font-size: 1.4rem;
+    /* margin-top: -3px; */
 }
 
 .title ul li ion-icon{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }

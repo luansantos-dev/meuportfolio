@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
-import perfil from "../../assets/perfil.jpg";
+import perfil from "../../assets/perfil.jpeg";
 
 const Header = () => {
   return (

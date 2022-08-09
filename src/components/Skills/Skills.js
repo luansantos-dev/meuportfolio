@@ -2,13 +2,12 @@ import React from "react";
 import styles from "./Skills.module.css";
 
 /* Images */
-
-import react from "../assets/react.svg";
-import javascript from "../assets/javascript.svg";
-import vue from "../assets/vuejs.svg";
-import swiftui from "../assets/swiftui.svg";
-import swift from "../assets/swift.svg";
-import firebase from "../assets/firebase.svg";
+import react from "../../assets/react.svg";
+import javascript from "../../assets/javascript.svg";
+import vue from "../../assets/vuejs.svg";
+import swiftui from "../../assets/swiftui.svg";
+import swift from "../../assets/swift.svg";
+import firebase from "../../assets/firebase.svg";
 
 const skills = [
   {
